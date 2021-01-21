@@ -11,4 +11,8 @@ export class ProductServices {
     this.product.push(newProduct);
     return productId;
   }
+
+  getAllProducts() {
+    return this.product;
+  }
 }
